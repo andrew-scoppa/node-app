@@ -1,12 +1,12 @@
 {
   "name": "node-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple node.js app with test",
   "main": "main.js",
   "scripts": {
     "test": "node util-test.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrew Scoppa",
   "license": "ISC"
 }
