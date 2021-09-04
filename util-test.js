@@ -10,7 +10,7 @@ function testSum() {
   console.log('addTwoNumbers() should return the sum of its two parameters.');
   console.log('Expect ' + expect + ' to equal ' + actual + '.');
   
-  assert.equal(sum1, sum2);
+  assert.equal(expect, actual);
 }
 
 testSum();
