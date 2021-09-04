@@ -4,11 +4,11 @@ const func_module = require('./util')
 function testSum() {
   var x = 5;
   var y = 1;
-  var sum1 = x + y;
-  var sum2 = func_module.add_numbers([5, 6]);
+  var expect = x + y;
+  var actual = func_module.add_numbers([x, y]);
 
   console.log('addTwoNumbers() should return the sum of its two parameters.');
-  console.log('Expect ' + sum1 + ' to equal ' + sum2 + '.');
+  console.log('Expect ' + expect + ' to equal ' + actual + '.');
   
   assert.equal(sum1, sum2);
 }
