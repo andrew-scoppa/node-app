@@ -1,5 +1,5 @@
 const assert = require('assert');
-const func_module = require('./util')
+const func_module = require('../src/util')
 
 function testSum() {
   var x = 5;

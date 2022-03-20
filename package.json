@@ -2,11 +2,13 @@
   "name": "node-app",
   "version": "1.0.0",
   "description": "Simple node.js app with test",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
-    "test": "node util-test.js"
+    "start": "node src/main.js",
+    "test": "node tests/util-test.js"
   },
-  "keywords": [],
+  "repository": "github:andrew-scoppa/node-app",
+  "keywords": ["demos", "actions"],
   "author": "Andrew Scoppa",
   "license": "ISC"
 }
